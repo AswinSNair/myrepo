@@ -14,6 +14,7 @@
 		EF4CCCA21D1A71620032B2D5 /* MyFirstApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF4CCCA01D1A71620032B2D5 /* MyFirstApp.xcdatamodeld */; };
 		EF4CCCA41D1A71620032B2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4CCCA31D1A71620032B2D5 /* Assets.xcassets */; };
 		EF4CCCA71D1A71620032B2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4CCCA51D1A71620032B2D5 /* LaunchScreen.storyboard */; };
+		EFEB62F81D1A885800430E1B /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEB62F71D1A885800430E1B /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		EF4CCCA31D1A71620032B2D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF4CCCA61D1A71620032B2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF4CCCA81D1A71620032B2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEB62F61D1A885800430E1B /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		EFEB62F71D1A885800430E1B /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				EF4CCC9A1D1A71620032B2D5 /* ViewController.h */,
 				EF4CCC9B1D1A71620032B2D5 /* ViewController.m */,
 				EF4CCC9D1D1A71620032B2D5 /* Main.storyboard */,
+				EFEB62F61D1A885800430E1B /* AddViewController.h */,
+				EFEB62F71D1A885800430E1B /* AddViewController.m */,
 				EF4CCCA31D1A71620032B2D5 /* Assets.xcassets */,
 				EF4CCCA51D1A71620032B2D5 /* LaunchScreen.storyboard */,
 				EF4CCCA81D1A71620032B2D5 /* Info.plist */,
@@ -152,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFEB62F81D1A885800430E1B /* AddViewController.m in Sources */,
 				EF4CCC9C1D1A71620032B2D5 /* ViewController.m in Sources */,
 				EF4CCC991D1A71620032B2D5 /* AppDelegate.m in Sources */,
 				EF4CCCA21D1A71620032B2D5 /* MyFirstApp.xcdatamodeld in Sources */,
@@ -304,6 +310,7 @@
 				EF4CCCAD1D1A71620032B2D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
