@@ -7,17 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF023C621D211BF7009A2E57 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF023C611D211BF7009A2E57 /* AddViewController.m */; };
+		EF023C651D211C53009A2E57 /* PersonalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF023C641D211C53009A2E57 /* PersonalInfo.m */; };
+		EF44FBA71D237B690085DDF5 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF44FBA61D237B690085DDF5 /* CustomTableViewCell.m */; };
+		EF44FBA81D239FBC0085DDF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CCC9B1D1A71620032B2D5 /* ViewController.m */; };
+		EF44FC041D24EC9B0085DDF5 /* DetailsPropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF44FC031D24EC9B0085DDF5 /* DetailsPropertyList.plist */; };
+		EF44FC071D261FF40085DDF5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF44FC061D261FF40085DDF5 /* DetailViewController.m */; };
 		EF4CCC961D1A71620032B2D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CCC951D1A71620032B2D5 /* main.m */; };
 		EF4CCC991D1A71620032B2D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CCC981D1A71620032B2D5 /* AppDelegate.m */; };
-		EF4CCC9C1D1A71620032B2D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CCC9B1D1A71620032B2D5 /* ViewController.m */; };
 		EF4CCC9F1D1A71620032B2D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4CCC9D1D1A71620032B2D5 /* Main.storyboard */; };
 		EF4CCCA21D1A71620032B2D5 /* MyFirstApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF4CCCA01D1A71620032B2D5 /* MyFirstApp.xcdatamodeld */; };
 		EF4CCCA41D1A71620032B2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4CCCA31D1A71620032B2D5 /* Assets.xcassets */; };
 		EF4CCCA71D1A71620032B2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4CCCA51D1A71620032B2D5 /* LaunchScreen.storyboard */; };
-		EFEB62F81D1A885800430E1B /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEB62F71D1A885800430E1B /* AddViewController.m */; };
+		EF605CBF1D222B86008521B3 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF605CBE1D222B86008521B3 /* LogInViewController.m */; };
+		EF626F2D1D2B75CD005D79D2 /* map icon ios.png in Resources */ = {isa = PBXBuildFile; fileRef = EF626F2C1D2B75CD005D79D2 /* map icon ios.png */; };
+		EF626F301D2B7ADC005D79D2 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF626F2F1D2B7ADC005D79D2 /* MapViewController.m */; };
+		EFFCC0511D2A670400E16129 /* download (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EFFCC0501D2A670400E16129 /* download (1).jpeg */; };
+		EFFCC0531D2A67BE00E16129 /* call ios icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EFFCC0521D2A67BE00E16129 /* call ios icon.jpeg */; };
+		EFFCC0551D2A67C700E16129 /* message icon ios.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EFFCC0541D2A67C700E16129 /* message icon ios.jpeg */; };
+		EFFCC0581D2A824B00E16129 /* WebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFCC0571D2A824B00E16129 /* WebPageViewController.m */; };
+		EFFCC05A1D2A849800E16129 /* internet icon ios.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EFFCC0591D2A849800E16129 /* internet icon ios.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF023C601D211BF7009A2E57 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		EF023C611D211BF7009A2E57 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		EF023C631D211C53009A2E57 /* PersonalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfo.h; sourceTree = "<group>"; };
+		EF023C641D211C53009A2E57 /* PersonalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInfo.m; sourceTree = "<group>"; };
+		EF44FBA51D237B690085DDF5 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		EF44FBA61D237B690085DDF5 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		EF44FC031D24EC9B0085DDF5 /* DetailsPropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DetailsPropertyList.plist; sourceTree = "<group>"; };
+		EF44FC051D261FF40085DDF5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EF44FC061D261FF40085DDF5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		EF4CCC911D1A71620032B2D5 /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4CCC951D1A71620032B2D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF4CCC971D1A71620032B2D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,8 +50,17 @@
 		EF4CCCA31D1A71620032B2D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF4CCCA61D1A71620032B2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF4CCCA81D1A71620032B2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFEB62F61D1A885800430E1B /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
-		EFEB62F71D1A885800430E1B /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		EF605CBD1D222B86008521B3 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		EF605CBE1D222B86008521B3 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		EF626F2C1D2B75CD005D79D2 /* map icon ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map icon ios.png"; sourceTree = "<group>"; };
+		EF626F2E1D2B7ADC005D79D2 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EF626F2F1D2B7ADC005D79D2 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		EFFCC0501D2A670400E16129 /* download (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (1).jpeg"; sourceTree = "<group>"; };
+		EFFCC0521D2A67BE00E16129 /* call ios icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "call ios icon.jpeg"; sourceTree = "<group>"; };
+		EFFCC0541D2A67C700E16129 /* message icon ios.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "message icon ios.jpeg"; sourceTree = "<group>"; };
+		EFFCC0561D2A824B00E16129 /* WebPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPageViewController.h; sourceTree = "<group>"; };
+		EFFCC0571D2A824B00E16129 /* WebPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPageViewController.m; sourceTree = "<group>"; };
+		EFFCC0591D2A849800E16129 /* internet icon ios.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "internet icon ios.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +93,31 @@
 		EF4CCC931D1A71620032B2D5 /* MyFirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				EFFCC0541D2A67C700E16129 /* message icon ios.jpeg */,
+				EFFCC0521D2A67BE00E16129 /* call ios icon.jpeg */,
+				EFFCC0501D2A670400E16129 /* download (1).jpeg */,
 				EF4CCC971D1A71620032B2D5 /* AppDelegate.h */,
 				EF4CCC981D1A71620032B2D5 /* AppDelegate.m */,
 				EF4CCC9A1D1A71620032B2D5 /* ViewController.h */,
 				EF4CCC9B1D1A71620032B2D5 /* ViewController.m */,
+				EF023C601D211BF7009A2E57 /* AddViewController.h */,
+				EF023C611D211BF7009A2E57 /* AddViewController.m */,
+				EF44FC031D24EC9B0085DDF5 /* DetailsPropertyList.plist */,
+				EF605CBD1D222B86008521B3 /* LogInViewController.h */,
+				EF605CBE1D222B86008521B3 /* LogInViewController.m */,
+				EF023C631D211C53009A2E57 /* PersonalInfo.h */,
+				EF023C641D211C53009A2E57 /* PersonalInfo.m */,
 				EF4CCC9D1D1A71620032B2D5 /* Main.storyboard */,
-				EFEB62F61D1A885800430E1B /* AddViewController.h */,
-				EFEB62F71D1A885800430E1B /* AddViewController.m */,
+				EF626F2E1D2B7ADC005D79D2 /* MapViewController.h */,
+				EF626F2F1D2B7ADC005D79D2 /* MapViewController.m */,
+				EF626F2C1D2B75CD005D79D2 /* map icon ios.png */,
+				EFFCC0591D2A849800E16129 /* internet icon ios.jpeg */,
+				EFFCC0561D2A824B00E16129 /* WebPageViewController.h */,
+				EFFCC0571D2A824B00E16129 /* WebPageViewController.m */,
+				EF44FC051D261FF40085DDF5 /* DetailViewController.h */,
+				EF44FC061D261FF40085DDF5 /* DetailViewController.m */,
+				EF44FBA51D237B690085DDF5 /* CustomTableViewCell.h */,
+				EF44FBA61D237B690085DDF5 /* CustomTableViewCell.m */,
 				EF4CCCA31D1A71620032B2D5 /* Assets.xcassets */,
 				EF4CCCA51D1A71620032B2D5 /* LaunchScreen.storyboard */,
 				EF4CCCA81D1A71620032B2D5 /* Info.plist */,
@@ -144,9 +192,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFFCC0551D2A67C700E16129 /* message icon ios.jpeg in Resources */,
+				EF626F2D1D2B75CD005D79D2 /* map icon ios.png in Resources */,
+				EFFCC0531D2A67BE00E16129 /* call ios icon.jpeg in Resources */,
+				EFFCC0511D2A670400E16129 /* download (1).jpeg in Resources */,
 				EF4CCCA71D1A71620032B2D5 /* LaunchScreen.storyboard in Resources */,
+				EF44FC041D24EC9B0085DDF5 /* DetailsPropertyList.plist in Resources */,
 				EF4CCCA41D1A71620032B2D5 /* Assets.xcassets in Resources */,
 				EF4CCC9F1D1A71620032B2D5 /* Main.storyboard in Resources */,
+				EFFCC05A1D2A849800E16129 /* internet icon ios.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,11 +211,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFEB62F81D1A885800430E1B /* AddViewController.m in Sources */,
-				EF4CCC9C1D1A71620032B2D5 /* ViewController.m in Sources */,
+				EFFCC0581D2A824B00E16129 /* WebPageViewController.m in Sources */,
+				EF605CBF1D222B86008521B3 /* LogInViewController.m in Sources */,
+				EF023C621D211BF7009A2E57 /* AddViewController.m in Sources */,
+				EF44FC071D261FF40085DDF5 /* DetailViewController.m in Sources */,
+				EF44FBA81D239FBC0085DDF5 /* ViewController.m in Sources */,
+				EF44FBA71D237B690085DDF5 /* CustomTableViewCell.m in Sources */,
 				EF4CCC991D1A71620032B2D5 /* AppDelegate.m in Sources */,
 				EF4CCCA21D1A71620032B2D5 /* MyFirstApp.xcdatamodeld in Sources */,
 				EF4CCC961D1A71620032B2D5 /* main.m in Sources */,
+				EF023C651D211C53009A2E57 /* PersonalInfo.m in Sources */,
+				EF626F301D2B7ADC005D79D2 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

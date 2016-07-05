@@ -7,12 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddViewController.h"
+#import "CustomTableViewCell.h"
 
-@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,AddViewControllerDelegate,CustomTableViewCellDelegate>
 {
     NSMutableArray *myData;
 
 }
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *plusButton;
 
 @property (weak, nonatomic) IBOutlet UITableView *tableRow;
+
 @end
+
